@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide offers detailed instructions on utilizing W2Sd, an innovative sampling framework that employs a weak-to-strong model pairing strategy to refine variable latent representations, bringing them closer to the ground truth.
+This guide offers detailed instructions on utilizing W2SD, an innovative sampling framework that employs a weak-to-strong model pairing strategy to refine variable latent representations, bringing them closer to the ground truth.
 
 Here we provide the inference code which supports ***Weight Difference***. More architectures will be released later.
 
@@ -63,7 +63,7 @@ python ./w2sd_lora.py
 ```
 This command will execute the generation process, generating images corresponding to the `predefined prompts` under both `weak model` and `strong model` and `w2sd`.
 
-You can also modify these prompts in `infer.py` to the content you want.
+You can also modify these prompts in `w2sd_lora.py` to the content you want.
 
 
 ### Output🎉️ 

@@ -11,12 +11,12 @@ Here we provide the inference code which supports ***Weight Difference***. More 
 <div align="center">
   <img src="./res/framework.jpg" width=70%/>
 </div>
-**W2SD leverages the gap between weak and strong models to approximate the gap between strong and ideal models.**
+W2SD leverages the gap between weak and strong models to approximate the gap between strong and ideal models.
 
 <div align="center">
   <img src="./res/res.jpg" width=90%/>
 </div>
-**Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.**
+Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.
 
 ## Requirements
 

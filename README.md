@@ -14,7 +14,7 @@ Here we provide the inference code which supports ***Weight Difference***. More 
 ### 2D Case
 <div align="center">
   <img src="./res/framework_2d.jpg" width=70%/>
-  <p>W2SD balances the learned distribution, bringing it closer to the real data distribution.</p>
+  <p>W2SD balances the learned distribution, bringing it closer to the real data distribution.</p>
 </div>
 
 ### Enhancing Human Preference

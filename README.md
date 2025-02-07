@@ -1,4 +1,4 @@
-# Weak-to-Strong Diffusion With Reflection (W2SD)
+<img width="687" alt="1738934929969" src="https://github.com/user-attachments/assets/8e71b159-79da-4308-9a68-da0826049907" /># Weak-to-Strong Diffusion With Reflection (W2SD)
 
 ## Overview
 
@@ -7,16 +7,35 @@ This guide offers detailed instructions on utilizing W2SD, an innovative samplin
 Here we provide the inference code which supports ***Weight Difference***. More architectures will be released later.
 
 ## Results
-
+### 1D Case
 <div align="center">
   <img src="./res/framework.jpg" width=70%/>
+  <p>W2SD leverages the gap between weak and strong models to approximate the gap between strong and ideal models.</p>
 </div>
-W2SD leverages the gap between weak and strong models to approximate the gap between strong and ideal models.
 
+### 2D Case
+<div align="center">
+  <img src="./res/framework.jpg" width=70%/>
+  <p>W2SD balances the learned distribution, bringing it closer to the real data distribution.</p>
+</div>
+
+### Enhancing Human Preference
 <div align="center">
   <img src="./res/res.jpg" width=90%/>
+  <p>Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.</p>
 </div>
-Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.
+
+### Enhancing Personalized Generation
+<div align="center">
+  <img src="./res/res.jpg" width=90%/>
+  <p>Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.</p>
+</div>
+
+### Enhancing Alignment with Control Conditions
+<div align="center">
+  <img src="./res/res.jpg" width=90%/>
+  <p>Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.</p>
+</div>
 
 ## Requirements
 

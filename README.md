@@ -1,5 +1,3 @@
-<img width="687" alt="1738934929969" src="https://github.com/user-attachments/assets/8e71b159-79da-4308-9a68-da0826049907" /># Weak-to-Strong Diffusion With Reflection (W2SD)
-
 ## Overview
 
 This guide offers detailed instructions on utilizing W2SD, an innovative sampling framework that employs a weak-to-strong model pairing strategy to refine variable latent representations, bringing them closer to the ground truth.
@@ -15,14 +13,14 @@ Here we provide the inference code which supports ***Weight Difference***. More 
 
 ### 2D Case
 <div align="center">
-  <img src="./res/framework.jpg" width=70%/>
+  <img src="./res/framework_2d.jpg" width=70%/>
   <p>W2SD balances the learned distribution, bringing it closer to the real data distribution.</p>
 </div>
 
 ### Enhancing Human Preference
 <div align="center">
-  <img src="./res/res.jpg" width=90%/>
-  <p>Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.</p>
+  <img src="./res/human_preference.jpg" width=90%/>
+  <p>The qualitative results of W2SD demonstrate the effectiveness of our method in various aspects, such as position, color, counting, and beyond. Here we set Juggernaut-XL as strong model and SDXL as weak model.</p>
 </div>
 
 ### Enhancing Personalized Generation
@@ -33,8 +31,8 @@ Here we provide the inference code which supports ***Weight Difference***. More 
 
 ### Enhancing Alignment with Control Conditions
 <div align="center">
-  <img src="./res/res.jpg" width=90%/>
-  <p>Qualitative comparisons with weak model (left), strong model (middle) and W2SD (right). Our method utilizes the differences between chosen strong and weak models (e.g., high-detail LoRA vs. standard model) to deliver improvements in various dimensions, including style, character, clothing, and beyond.</p>
+  <img src="./res/controlnet.jpg" width=70%/>
+  <p> Qualitative results of W2SD based on pipeline difference. We set ControlNet as strong model pipeline and DDIM as weak model pipeline. W2SD improves alignment with reference images.</p>
 </div>
 
 ## Requirements

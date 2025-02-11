@@ -1,5 +1,7 @@
 ## Overview
 
+We propose Weak-to-Strong Diffusion (W2SD), a novel framework that utilizes the estimated difference between existing weak and strong models (i.e., weak-to-strong difference) to approximate the gap between an ideal model and a strong model. By employing a reflective operation that alternates between denoising and inversion with weak-to-strong difference, we theoretically understand that W2SD steers latent variables along sampling trajectories toward regions of the real data distribution. W2SD is highly flexible and broadly applicable, enabling diverse improvements through the strategic selection of weak-to-strong model pairs (e.g., DreamShaper vs. SD1.5, good experts vs. bad experts in MoE).
+
 This guide offers detailed instructions on utilizing W2SD, an innovative sampling framework that employs a weak-to-strong model pairing strategy to refine variable latent representations, bringing them closer to the ground truth.
 
 Here we provide the inference code which supports ***Weight Difference***. More architectures will be released later.
@@ -95,3 +97,16 @@ You need to manually or automatically download the SDXL model via Hugging Face. 
 
 
 If you encounter any issues with deployment and operation, you are kindly invited to contact us, thank you very much!
+
+# Citing
+
+If you find our code useful in your research, please cite our paper.
+
+```bibtex
+@article{bai2025weak,
+  title={Weak-to-Strong Diffusion with Reflection},
+  author={Bai, Lichen and Sugiyama, Masashi and Xie, Zeke},
+  journal={arXiv preprint arXiv:2502.00473},
+  year={2025}
+}
+```

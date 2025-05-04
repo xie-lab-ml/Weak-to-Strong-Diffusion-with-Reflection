@@ -89,6 +89,12 @@ You can also modify these prompts in `w2sd_lora.py` to the content you want.
 
 The composed images will be saved to the directory designated by `--save_dir`.
 
+## Usage👀️ 
+
+You can also run  `evaluate.py` to evaluate the results of the method.
+
+We provide two datasets, `Pick-a-Pic` and `DrawBench`, along with four metrics: `PickScore`, `HPS`, `ImageReward`, and `AES`.
+
 ## Pre-trained Weights Download❤️
 
 You need to manually or automatically download the SDXL model via Hugging Face. Please ensure a stable internet connection and the correct version.

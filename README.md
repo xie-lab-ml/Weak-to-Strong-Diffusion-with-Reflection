@@ -109,10 +109,10 @@ If you encounter any issues with deployment and operation, you are kindly invite
 If you find our code useful in your research, please cite our paper.
 
 ```bibtex
-@article{bai2025weak,
+@inproceedings{bai2025weak,
   title={Weak-to-Strong Diffusion with Reflection},
   author={Bai, Lichen and Sugiyama, Masashi and Xie, Zeke},
-  journal={arXiv preprint arXiv:2502.00473},
-  year={2025}
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2025},
 }
 ```
